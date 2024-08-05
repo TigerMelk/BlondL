@@ -59,13 +59,14 @@ header {
 }
 .flexRow {
   display: flex;
-  height: 70vh;
+  /* height: 70vh; */
 }
 .flexRev {
-  display: flex;
+  /* display: flex; */
   width: 80%;
   margin: 0 auto;
-  flex-flow: row wrap;
+  flex: 0 0 33.3333%;
+  /* flex-flow: row wrap; */
 }
 
 .box {
@@ -75,6 +76,7 @@ header {
   background-color: bisque;
   padding: 25px;
   margin: 10px;
+  flex: 33.3333%;
 }
 
 .grow {
@@ -109,3 +111,6 @@ header {
   gap: 15px;
 }
 /* footer { } */
+
+@media screen and (min-width: 768px) {
+}
